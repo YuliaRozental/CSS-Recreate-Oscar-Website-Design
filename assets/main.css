@@ -7,7 +7,7 @@
     -webkit-box-shadow: none;
     box-shadow: none;
     border-radius: 0;
-  }
+  } 
 
   input[type="text"]:focus,
   select.form-control:focus {
@@ -29,8 +29,34 @@
     background-image: url("./images/logo.svg");
     width: 80px;
     height: 30px;
-    left: 30px;
+    left: 80px;
     top: 20px;
     background-repeat: no-repeat;
     position: absolute;
+  }
+
+  .btn-primary-outline{
+      color: white;
+  }
+
+  .nav-container {
+      display: flex;
+      justify-content: center;
+      border-bottom: 0.8px solid white;
+      height: 80px;
+  }
+
+  .card-container {
+      display: flex;
+      position: relative;
+      justify-content: center;
+  }
+
+  .text-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
   }
